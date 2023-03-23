@@ -18,13 +18,13 @@ let package = Package(
 				dependencies: [
 					"GXCoreModule_Common_Log",
 					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.watchOS, .tvOS])),
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.watchOS, .tvOS, .iOS]))
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.iOS, .watchOS, .tvOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_Common_Log",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Log-1.0.0-beta+20230321182636.xcframework.zip",
-			checksum: "2c63fb4155e68aef4ad8fe106601b27aebc0347412c6450b3b0136922af8dda0"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Log-1.0.0-beta+20230323104412.xcframework.zip",
+			checksum: "a48c2932885aecbb8f0a6ed49d66e308e68a70fad9084dd447b6e6158e15011e"
 		)
 	]
 )
