@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreModule_Common_LogWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.6.0-beta.2")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.6.0-beta.3")
 	],
 	targets: [
 		.target(name: "GXCoreModule_Common_LogWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_Common_Log",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Log-1.6.0-beta.2.xcframework.zip",
-			checksum: "c9e923104d9c51c73808755c7cd3c15a38fed466f4c1db1dd5763a3ee97da1b1"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Log-1.6.0-beta.3.xcframework.zip",
+			checksum: "29426fa013fdbab9931a6df8b229c9aa00788074c070f31becc16904a4335944"
 		)
 	]
 )
