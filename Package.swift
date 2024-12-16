@@ -3,14 +3,14 @@ import PackageDescription
 
 let package = Package(
 	name: "GXCoreModule_Common_Log",
-	platforms: [.iOS("12.0"), .watchOS("9.0"), .tvOS("12.0"), .visionOS("1.0")],
+	platforms: [.iOS("13.0"), .watchOS("9.0"), .tvOS("13.0"), .visionOS("1.0")],
 	products: [
 		.library(
 			name: "GXCoreModule_Common_Log",
 			targets: ["GXCoreModule_Common_LogWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "2.2.0-beta.21")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "2.2.0-beta.24")
 	],
 	targets: [
 		.target(name: "GXCoreModule_Common_LogWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_Common_Log",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Log-2.2.0-beta.21.xcframework.zip",
-			checksum: "cc9e18c1e7c5dcc347e50d42cc3ce4cbff338d01aa839f974632494e742530cb"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Log-2.2.0-beta.24.xcframework.zip",
+			checksum: "6273a28f6537cb05b7a4847a8683dcb00eaa629adacd63c7800b53c0bc73c150"
 		)
 	]
 )
