@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreModule_Common_LogWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.1.4")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.1.5")
 	],
 	targets: [
 		.target(name: "GXCoreModule_Common_LogWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_Common_Log",
-			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_Common_Log-3.1.4.xcframework.zip",
-			checksum: "159b9c0fbcbd0c8d0fc6cdb702cfef4af7639c084af915cf9f2677f8c5e6d4a2"
+			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_Common_Log-3.1.5.xcframework.zip",
+			checksum: "953dc43085b1ae890382f6db5de99fa70368fbb9b603a3045c7c68c1c07a034c"
 		)
 	]
 )
